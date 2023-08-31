@@ -15,7 +15,8 @@ jobs:
     - name: Compile LaTeX document
       uses: xu-cheng/latex-action@v3
       with:
-        root_file: altium-whitepaper/main.tex
+        root_file: main.tex
+        working_directory: altium-whitepaper
     - name: Upload PDF file
       uses: actions/upload-artifact@v3
       with:
