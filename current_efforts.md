@@ -30,3 +30,6 @@ https://github.com/UCSD-E4E/smartfin-pcba-v3
 [ ] Write out math
 [ ] Implement math
 [ ] Test implementation
+## Salinity Sensor Development
+[ ] Characterize current circuit sensitivity
+[ ] Literature survey
