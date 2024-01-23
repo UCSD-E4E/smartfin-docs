@@ -43,7 +43,7 @@ gpio_bank -- optics2
 adc_bank -- optics1
 adc_bank -- optics2
 spi_bank -- spi_flash
-battery -- pmic
+battery - pmic
 pmic -- "STM32WBA"
 serial_bank -- usb_serial
 @enduml
