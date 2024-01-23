@@ -1,0 +1,83 @@
+@startuml Smartfin v3 System Diagram
+left to right direction
+
+package "STM32WBA" {
+    [ARM Cortex-M33] as cpu
+    [Bluetooth 5.3] as ble
+    [Real-Time Clock] as rtc
+    [35x GPIO] as gpio_bank
+    [2x SPI] as spi_bank
+    [2x I2C] as i2c_bank
+    [2x Serial] as serial_bank
+    [1x ADC] as adc_bank
+    cpu -- gpio_bank
+    cpu -- spi_bank
+    cpu -- i2c_bank
+    cpu -- serial_bank
+    cpu -- adc_bank
+    cpu - ble
+    rtc - cpu
+}
+
+frame "COTS Sensors" {
+    [9 axis IMU] as imu
+    [Temperature] as temp
+    [GPS] as gps
+}
+frame "Custom Sensors" {
+    [Wet/Dry Sensor] as wd_sensor
+    [Backscatter Sensor] as optics1
+    [fDOM Sensor] as optics2
+}
+[2 MB SPI Flash] as spi_flash
+[Power Management IC] as pmic
+[LiPo Battery] as battery
+[USB Serial Adapter] as usb_serial
+
+i2c_bank -- imu
+i2c_bank -- temp
+gpio_bank -- wd_sensor
+serial_bank -- gps
+gpio_bank -- optics1
+gpio_bank -- optics2
+adc_bank -- optics1
+adc_bank -- optics2
+spi_bank -- spi_flash
+battery -- pmic
+pmic -- "STM32WBA"
+serial_bank -- usb_serial
+@enduml
+
+@startuml Smartfin v3 High Level Diagram
+left to right direction
+
+[MCU] as cpu
+
+frame "Custom Sensors" {
+    [Wet/Dry Sensor] as wd_sensor
+    [Backscatter Sensor] as optics1
+    [fDOM Sensor] as optics2
+}
+frame "COTS Sensors" {
+    [9 axis IMU] as imu
+    [Temperature] as temp
+    [GPS] as gps
+}
+[2 MB SPI Flash] as spi_flash
+[Power Management IC] as pmic
+[LiPo Battery] as battery
+[USB Interface] as usb_serial
+
+cpu -- spi_flash
+battery -- pmic
+pmic -- cpu
+cpu -- usb_serial
+' cpu -- wd_sensor
+' cpu -- optics1
+' cpu -- optics2
+cpu -- "Custom Sensors"
+' cpu -- imu
+' cpu -- temp
+' cpu -- gps
+cpu -- "COTS Sensors"
+@enduml
