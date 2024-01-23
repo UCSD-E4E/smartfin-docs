@@ -27,7 +27,7 @@ frame "COTS Sensors" {
 frame "Custom Sensors" {
     [Wet/Dry Sensor] as wd_sensor
     [Backscatter Sensor] as optics1
-    [fDOM Sensor] as optics2
+    [Chl-a or fDOM Sensor] as optics2
 }
 [2 MB SPI Flash] as spi_flash
 [Power Management IC] as pmic
