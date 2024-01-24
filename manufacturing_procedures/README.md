@@ -1,18 +1,13 @@
 # Smartfin v3 Manufacturing Procedures
 ## Tasks
-Confirm hours of availability for the Martz lab space
-
-File the outside edges of the mold to dull them
-
 Obtain bolts for joining the mold pieces
 
-Obtain brush for appling PVA
+Discuss with Todd/Taylor a preferred location for mixing epoxy, spraying PVA, and releaseing air from pressure pot
 
 ## Equipment
-
+Plastic tool for clearing air relief channels
 
 ## Supplies
-Plastic tool for clearing air relief channels
 
 ## Procedure
 ### Preparing the Mold
