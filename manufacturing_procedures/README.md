@@ -1,13 +1,10 @@
 # Smartfin v3 Manufacturing Procedures
-## Tasks
-Obtain bolts for joining the mold pieces
-
-Discuss with Todd/Taylor a preferred location for mixing epoxy, spraying PVA, and releaseing air from pressure pot
-
 ## Equipment
 Plastic tool for clearing air relief channels
 
 ## Supplies
+PVA 
+Resin Slow Hardener
 
 ## Procedure
 ### Preparing the Mold
