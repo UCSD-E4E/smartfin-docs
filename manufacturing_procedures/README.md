@@ -24,8 +24,12 @@ Use bolts to secure the top piece to the bottom piece, switching between bolts f
 
 Rotate the mold so that the resin inlets are facing upwards
 
-Fill resin to top of inlets
+Prepare the resin
+- 240 mL resin, 40 ml hardener
+- Mix until consistent, then use vacuum pot to remove air bubbles
 
+Fill resin to top of inlets
+- Add a small amount (~50mL), then tilt the mold side to side to ensure there are no air pockets in the tip of the fin before pouring the remaining resin.
 * Vibrate mold to release large air pockets?
 
 Transfer to Pressure Vessel
