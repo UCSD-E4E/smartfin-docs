@@ -3,8 +3,9 @@
 Plastic tool for clearing air relief channels
 
 ## Supplies
-PVA 
-Resin Slow Hardener
+- PVA
+- Resin
+- Slow Hardener
 
 ## Procedure
 ### Preparing the Mold
