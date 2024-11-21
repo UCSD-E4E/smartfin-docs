@@ -11,7 +11,7 @@ Plastic tool for clearing air relief channels
 ### Preparing the Mold
 Ensure that the mold is clean by rinsing all contact surfaces with water and drying with a microfiber towel
 
-* Tape over port holes for electronics for now
+* Use wax to cover the pin holes in the mold. Scrape down to be flush with the mold.
 
 Using a brush, or spray tool if not available, to apply a coating of PVA to all contact surfaces
 
@@ -26,7 +26,7 @@ Use bolts to secure the top piece to the bottom piece, switching between bolts f
 Rotate the mold so that the resin inlets are facing upwards
 
 Prepare the resin
-- 240 mL resin, 40 ml hardener
+- 252 mL resin, 42 ml hardener
 - Mix until consistent, then use vacuum pot to remove air bubbles
 
 Fill resin to top of inlets
@@ -56,8 +56,7 @@ Ensure that the inlet regulator is closed and locked, and that the inlet valve a
 
 Attach air hose to the pressure vessel inlet and slowly open the air hose valve
 
-Slowly open the inlet valve, and then turn the regulator to begin pressurizing the vessel
-* How much pressure produces quality results? Guess 30 psi
+Slowly open the inlet valve, and then turn the regulator to begin pressurizing the vessel to 60 psi
 
 Once desired pressure is reached, close the regulator fully and lock it
 
