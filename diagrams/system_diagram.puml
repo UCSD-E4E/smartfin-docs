@@ -1,4 +1,4 @@
-@startuml Smartfin v3 System Diagram
+@startuml Smartfin v4 System Diagram
 left to right direction
 
 package "STM32WBA" {
@@ -48,7 +48,7 @@ pmic -- "STM32WBA"
 serial_bank -- usb_serial
 @enduml
 
-@startuml Smartfin v3 High Level Diagram
+@startuml Smartfin v4 High Level Diagram
 left to right direction
 
 [MCU] as cpu
