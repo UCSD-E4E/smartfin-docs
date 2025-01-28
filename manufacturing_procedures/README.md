@@ -89,3 +89,4 @@ Plastic tool for clearing air relief channels
 11. Use a plastic tool to remove any resin remaining in the relief channels
 
 12. Clean the entire surface of the mold using water
+
