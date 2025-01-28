@@ -17,6 +17,7 @@ Plastic tool for clearing air relief channels
 
 2. Using a brush, or spray tool if not available, to apply a coating of PVA to all contact surfaces
 
+
 * Have 3 coats of PVA (wait for each coat to dry for about 15 minutes each).
 * Inlay fiberglass and electronics here
 
