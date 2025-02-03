@@ -19,6 +19,7 @@ Plastic tool for clearing air relief channels
 
 * Have 3 coats of PVA (wait for each coat to dry for about 15 minutes each).
 * Inlay fiberglass and electronics here
+* Coat the spacer with PVA as well
 
 3. Lay the "top" piece of the mold onto the "bottom" piece and check proper alignment 
 
@@ -86,7 +87,9 @@ Plastic tool for clearing air relief channels
 
 10. On the fin, file down any remnants of the mold
 
-11. Use a plastic tool to remove any resin remaining in the relief channels
+11. Drill a hole for the assigned pin hole on the edge of the fin, and insert screw.
 
-12. Clean the entire surface of the mold using water
+12. Use a plastic tool to remove any resin remaining in the relief channels
+
+13. Clean the entire surface of the mold using water
 
