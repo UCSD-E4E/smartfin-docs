@@ -68,28 +68,18 @@ Plastic tool for clearing air relief channels
 * A minimum of 24 hours for resin to cure is suggested.
 
 1. Slowly open the pressure outlet valve
-
-2. Begin to release each screw one quarter turn each, moving in a diamond pattern across the screws, until resistance is negligable
-
+2. Loosen the wing nuts on the pressure pot
 3. Fully detach lid screws, then remove the lid
-
 4. Pull the mold and expendable material from the vessel
-
 5. Lay the mold on a surface with the bottom piece down
-
-6. Remove bolts securing the top piece to the bottom piece, switching between bolts frequently
-
-7. Screw bolts into the threaded holes of the top piece to slowly pry the top piece from the bottom piece, switching between bolts frequently
-
+6. Remove all bolts securing the top piece to the bottom piece
+7. Slowly screw bolts into the threaded holes of the top piece to slowly pry the top piece from the bottom piece, switching between bolts frequently.  As these bolts are inserted, rock the mold top back and forth to separate the halves.  Advance the bolts until the mold halves are fully separated and you can fully separate the halves by hand.
 8. Remove the top piece of the mold from the bottom piece, applying only a light amount of force if necessary
-
 9. Inspect the quality of the fin
-
-10. On the fin, file down any remnants of the mold
-
-11. Drill a hole for the assigned pin hole on the edge of the fin, and insert screw.
-
-12. Use a plastic tool to remove any resin remaining in the relief channels
-
-13. Clean the entire surface of the mold using water
+10. Wash the fin to remove remaining PVA
+11. Use a fine pitch saw and file to remove excess resin from the fin
+12. Drill a 3/16 in hole for the assigned pin hole on the nose of the fin, and insert spring pin.
+13. Drill a 3/16 in hole for the screw hole on the tail of the fin.
+14. Use a plastic tool to remove any resin remaining in the relief channels
+15. Clean the entire surface of the mold using water
 
