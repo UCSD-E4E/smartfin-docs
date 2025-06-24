@@ -1,14 +1,48 @@
 # Smartfin v3 Manufacturing Procedures
-## Equipment
-Plastic tool for clearing air relief channels
+## PCB Bringup
+### Required Parts
+- 1x Smartfin v3 rev a PCB
+- 1x Temperature Sensor rev b PCB
+- 1x Particle Cellular Antenna
+- 1x GPS Antenna
+- 1x Battery
+- 5x SS Pins (2mm dia, 6mm len)
 
-## Supplies
+### Required Tools
+- Smartfin USB Test Harness
+- Laptop/PC with Chrome 61 or later (Win, Linux, or MacOS), Visual Studio Code, and a serial terminal
+- Soldering Rework Station (if wiring version is greater than 0)
+
+### Procedure
+1. Apply wiring updates/hardware mods to latest revision (currently xa0)
+2. Connect the USB Test Harness from the DUT to the PC
+3. In Chrome, log in to Particle as appropriate
+4. In Chrome, navigate to https://docs.particle.io/tools/doctor/
+5. Follow the instructions from Particle Doctor until the DUT is fully provisioned and claimed
+6. Open VS Code to the smartfin-fw3 repo (https://github.com/UCSD-E4E/smartfin-fw3)
+7. Flash application and DeviceOS to the DUT
+8. Open a serial terminal and connect to the DUT
+9. Drop into the CLI using the key sequence `#CLI`.
+10. Select `Manufacturing Test`
+11. If any test does not pass, notify engineering team and stop here
+12. Copy the Device ID
+13. Log into https://console.particle.io/smartfin-v3-21900/devices
+14. Click `Add Devices`
+15. Add this DUT using the device ID
+16. Pass the DUT to the potting team.
+
+## Potting Team
+### Supplies
 - PVA
 - Resin
 - Slow Hardener
 
-## Procedure
-### Preparing the Mold
+### Equipment
+Plastic tool for clearing air relief channels
+
+
+### Procedure
+#### Preparing the Mold
 1. Ensure that the mold is clean by rinsing all contact surfaces with water and drying with a microfiber towel
 
 * Use wax to cover the pin holes in the mold.
@@ -37,7 +71,7 @@ Plastic tool for clearing air relief channels
 
 8. Transfer to Pressure Vessel
 
-### Using the Pressure Vessel
+#### Using the Pressure Vessel
 1. Line the bottom of the pressure vessel with cardboard or another expendable material to account for any leaking from the mold
 
 2. Place the mold in the vessel so that the resin inlets are facing upwards
@@ -64,7 +98,7 @@ Plastic tool for clearing air relief channels
 
 13. Detach the air hose from the pressure vessel
 
-### Post-Processing
+#### Post-Processing
 * A minimum of 24 hours for resin to cure is suggested.
 
 1. Slowly open the pressure outlet valve
@@ -82,4 +116,3 @@ Plastic tool for clearing air relief channels
 13. Drill a 3/16 in hole for the screw hole on the tail of the fin.
 14. Use a plastic tool to remove any resin remaining in the relief channels
 15. Clean the entire surface of the mold using water
-
